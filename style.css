@@ -1,0 +1,413 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+.contain{
+    padding: 20px;
+    padding-left: 50px;
+    padding-top: 50px;
+    display: flex;
+    
+    height: 100px;
+    flex-direction: row;
+    background-color: #f8fed9;
+}
+.logo{
+    margin-right: 150px;
+}
+.link{
+    margin-top: 10px;
+    font-size: 25px;
+    
+}
+a{
+    padding-right: 30px;
+    color:black;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.contain2{
+    background-color: #ddd5ff;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+}
+#img1{
+    height:918px;
+    width:507px;
+}
+.img2{
+    padding-top: 50px;
+    padding-bottom: 35px;
+}
+.img_mine{
+    margin-right: 80px;
+}
+.inner_contain2_1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 70px;
+}
+.img2_content{
+    margin-left: 20px;
+    height: 200px;
+    width : 440px;
+}
+.heading{
+    padding-left: 100px;
+    font-size: 20px;
+}
+div h2,p{
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+.btn1{
+    padding-left: 150px;
+}
+.btn1 .bb{
+    height: 60px;
+    width:150px;
+    background-color: white;
+    border: 1px sloid black;
+}
+.contain3{
+    width:100%;
+    background-color: #ddd5ff;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+}
+.contain3_1_0{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 70px;
+    margin-bottom: 100px;
+    height:417px;
+    width:353px;
+}
+.contain3_1_1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 80px;
+    margin-right: 10px;
+    margin-bottom: 100px;
+    
+}
+.contain3_1_2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 80px;
+    margin-bottom: 100px;
+}
+.img3 img{
+    height:417px;
+    width: 417px;
+}
+.contain3_1_0 .img3{
+    padding-right: 50px;
+}
+.img3_content_heading{
+    height: 90px;
+    width: 350px;
+}
+.img3_content_description{
+    height: 90px;
+    width:350px;
+    line-height: 30px;
+    
+}
+.img3_content{
+    margin-left: 50px;
+    padding-top: 50px;
+}
+.img3_1_content{
+    margin-left: 90px;
+    padding-top: 50px;
+}
+.contain3_heading{
+    background-color: #ddd5ff;
+    padding-left: 470px;
+    padding-top: 50px;
+}
+.comments{
+    margin-top: 70px;
+    border-top: 1px dotted rgb(115, 113, 113);
+}
+.about_me_container{
+    background-color: #ddd5ff;
+    padding-left: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.my_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 90px;
+    padding-top: 150px;
+}
+.my_img img{
+    height:548px;
+    width: 420px;
+}
+.my_desc{
+    height: 90px;
+    width:350px;
+}
+.btn5{
+    padding-top: 50px;
+    padding-left: 120px
+}
+.bc{
+    height:50px;
+    width: 110px;
+}
+.flex_container1{
+    padding-left: 120px;
+    padding-top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    background-color:#ddd5ff;
+}
+.flex_container1 img{
+    height: 200px;
+    width: 200px;
+    padding-right: 40px;
+    padding-top: 30px;
+}
+.flex_container2 img{
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 150px;
+    height: 200px;
+    width: 200px;
+}
+.flex_container2{
+    padding-left: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    background-color:#ddd5ff;
+}
+.heading_quot{
+    padding-left: 120px;
+    background-color:#ddd5ff;
+    padding-top: 150px;
+    font-size: 40px;
+    color:rgb(199, 99, 99);
+}
+.name{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 110px;
+
+}
+.form_contain{
+   padding-top: 50px;
+   background-color:#f8fed9;
+}
+.last{
+    padding-top:0.85rem;
+}
+.form_head{
+    font-size: 30px;
+    padding-left: 250px;
+    padding-bottom: 100px;
+}
+.form_head h2{
+    margin-left: 70px;
+}
+.form_head p{
+    font-size: 15px;
+    padding-left: 150px;
+}
+.form .name{
+    padding-left: 200px;
+}
+.label1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.label1 input{
+    border: none;
+    width: 50%;
+    background-color:#f8fed9
+}
+.label2 input{
+    background-color:#f8fed9;
+    width: 50%;
+}
+.label2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+#fn{
+    border: none;
+    border-bottom:1px solid black;
+    margin-right: 150px;
+}
+#ln{
+    border: none;
+    border-bottom:1px solid black;
+}
+.email{
+    padding-left: 200px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-bottom: 90px;
+}
+.email input{
+    background-color:#f8fed9;
+    width: 50%;
+}
+#em{
+    border: none;
+    width: 540px;
+    border-bottom:1px solid black;
+}
+.button_sub{
+    width:150px;
+    height: 50px;
+    background-color: white;
+    border: none;
+    border: 1px solid black;
+}
+.subs{
+    padding-left: 400px;
+    padding-bottom: 100px;
+}
+h2,h1{
+    color: rgb(249, 126, 126);
+}
+.date_time p{
+    color: rgb(23, 158, 23);
+}
+.social{
+    height: 30px;
+    width: 30px;
+    padding-right: 15px;
+   
+}
+.social_link{
+    padding-top:20px ;
+    padding-bottom:20px ;
+   
+}
+.addr_contain{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left:50px ;
+    padding-right: 200px;
+}
+.addr p{
+    line-height: 10px;
+}
+span{
+    color:red
+}
+.contact_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.name_email{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.footer_contain{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    color: white;
+    padding-bottom: 200px;
+    padding-top: 200px;
+    background-color: rgb(36, 36, 36);
+}
+.submit_head{
+    padding-bottom:35px ;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: 45px;
+}
+.email1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+#nam{
+    border: none;
+    background-color: rgb(36, 36, 36);
+    border-bottom:1px solid white;
+}
+#mail{
+    border: none;
+    background-color: rgb(36, 36, 36);
+    border-bottom:1px solid white;
+}
+.msg{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+#message{
+    border: none;
+    background-color: rgb(36, 36, 36);
+    border-bottom:1px solid white;
+}
+.name label{
+    padding-bottom: 30px;
+}
+.email1 label{
+    padding-bottom: 30px;
+}
+.msg label{
+    padding-bottom: 30px;
+}
+.bbttnn{
+    padding-top: 40px;
+    padding-left: 400px;
+}
+.bbttnn button{
+    height:50px;
+    width: 150px;
+    background-color: white;
+    font-size: 15px;
+    border: none;
+    border: 1px solid black;
+}
